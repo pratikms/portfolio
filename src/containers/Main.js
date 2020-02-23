@@ -14,7 +14,11 @@ import Podcast from "./podcast/Podcast";
 export default class Main extends Component {
   render() {
     return (
-      <div>
+      <div
+        style={{
+          backgroundColor: '#0a192f'
+        }}
+      >
         <Header />
         <Greeting />
         <Skills />
