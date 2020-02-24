@@ -4,15 +4,15 @@
 }
 
 .square:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: hsl(211, 10%, 60%) 0px 10px 30px -15px;
 }
 
 .square {
   width: 440px;
   height: 430px;
-  background: white;
+  background: rgb(10, 25, 47);
   border-radius: 4px;
-  box-shadow: 0px 20px 50px #d9dbdf;
+  box-shadow: #172a45 0px 20px 30px -10px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -37,6 +37,7 @@
   font-size: 24px;
   overflow: hidden;
   display: -webkit-box;
+  color: #868e96;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
@@ -45,7 +46,7 @@
   padding-left: 30px;
   padding-right: 30px;
   font-size: 12px;
-  color: #c8c8c8;
+  color: rgb(88, 96, 105);
   line-height: 18px;
   overflow: hidden;
   display: -webkit-box;
