@@ -2,7 +2,7 @@
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all 👋 I'm Saad",
+  title: "Hello, World! 👋 I'm Pratik Shivaraikar",
   subTitle:
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
@@ -90,8 +90,8 @@ const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
 
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
+  githubConvertedToken: btoa(process.env.REACT_APP_GITHUB_ACCESS_TOKEN),
+  githubUserName: "pratikms"
 };
 
 const bigProjects = {
@@ -155,16 +155,16 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+      url: "https://pratikms.hashnode.dev/securing-cloud-infrastructure-with-ids-ck34hflpo0089pcs1ystafokn",
+      image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1582556518552/zC3mA8OOx.jpeg",
+      title: "Securing Cloud Infrastructure with IDS",
+      description: "TODO"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      image: "https://miro.medium.com/max/1280/1*o08b2PW-1PVs94riZuhNMA.png",
-      title: "Why REACT Is The Best?",
-      description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://pratikms.hashnode.dev/the-django-jargon-ck1zi1844011t9ns1x1yof2hv",
+      image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1571606086498/3mJWKc1Ss.png",
+      title: "The Django Jargon",
+      description: "Discussion about the typical jargons one encounters while dealing with Django for the first time."
     }
   ]
 };
