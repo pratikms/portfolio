@@ -5,6 +5,10 @@
   color: #868e96;
 }
 
+.project-button > .main-button {
+  margin-right: unset;
+}
+
 .startup-project-text img{
   max-width: 100%;
   height: auto;
