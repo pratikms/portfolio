@@ -4,7 +4,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hello, World! 👋 I'm Pratik Shivaraikar",
   subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
+    "I'm a passionate software engineer based in Pune, India specializing in building exceptional, high-quality software products.",
   resumeLink: "https://drive.google.com/file/d/1IJCQ86t7j7hDFQS7j-mQrZ_WpsscS4HU/view?usp=sharing"
 };
 
@@ -19,29 +19,30 @@ const socialMediaLinks = {
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
-  skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-  ],
-
+  title: "About Me",
+  subTitle: "I have a professional experience of working in the Storage, Security and Wireless domains. Apart from that, I've also worked on quite a few open-source projects ranging from web development to game development.",
+  skillsPreamble: "Here are a few technologies that I've worked on:",
+  // skills: [
+  //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+  //   "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
+  //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+  // ],
+  
   /* Make Sure You include correct Font Awesome Classname to view your icon */
   /* https://fontawesome.com/icons?d=gallery */
-
+  
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
       skillName: "JavaScript",
@@ -52,22 +53,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -76,13 +61,17 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
   ]
 };
 
@@ -151,14 +140,14 @@ const blogSection = {
   /* Blogs Section */
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
+  subtitle: "Whenever I find time, I also like to write about whatever I have learned:",
 
   blogs: [
     {
       url: "https://pratikms.hashnode.dev/securing-cloud-infrastructure-with-ids-ck34hflpo0089pcs1ystafokn",
       image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1582556518552/zC3mA8OOx.jpeg",
-      title: "Securing Cloud Infrastructure with IDS",
-      description: "TODO"
+      title: "Securing Cloud with IDS",
+      description: "An insight into securing your cloud infrastructure using open source technologies."
     },
     {
       url: "https://pratikms.hashnode.dev/the-django-jargon-ck1zi1844011t9ns1x1yof2hv",
@@ -197,10 +186,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: "Contact Me ☎️",
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  title: "Get In Touch",
+  subtitle: "Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!",
+  // number: "+92-3243454077",
+  email_address: "pratik.shivaraikar@gmail.com"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };
