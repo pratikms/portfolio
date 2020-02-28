@@ -28,16 +28,21 @@
     transition: all 0.3s;
 }
 
-.contact-subtitle {
+/* .contact-subtitle {
     text-transform: uppercase;
-}
+} */
 
 .contact-text-div {
     margin-top: 1.5rem;
 }
 
 .contact-margin-top {
-    margin-top: 4rem;
+    margin-top: 5.5rem;
+    margin-bottom: 4rem;
+}
+
+.project-button > .main-button {
+    margin-right: unset;
 }
 
 .contact-image-div > img {
@@ -64,6 +69,7 @@
         font-size: 16px;
         line-height: normal;
         text-align: center;
+        padding: 0 250px 0 250px;
     }
 
     .contact-text-div {
