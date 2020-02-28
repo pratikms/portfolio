@@ -21,6 +21,7 @@ export default function Blogs() {
                   title: blog.title,
                   description: blog.description
                 }}
+                key={blog.url}
               />
             );
           })}

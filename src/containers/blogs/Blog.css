@@ -21,9 +21,9 @@
   color: #868e96;
 }
 
-.blog-subtitle {
+/* .blog-subtitle {
   text-transform: uppercase;
-}
+} */
 .blog-main-div > * {
   flex: 1;
   margin-bottom: 30px;
