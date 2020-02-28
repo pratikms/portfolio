@@ -14,13 +14,13 @@ export default function Greeting() {
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
             <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
+              <Button text="Get in touch" href="mailto:pratik.shivaraikar@gmail.com" />
+              <Button text="Resume" newTab={true} href={greeting.resumeLink} />
             </div>
           </div>
         </div>
         <div className="greeting-image-div">
-          <img alt="saad sitting on table" src={require("../../assests/images/manOnTable.svg")}></img>
+          <img alt="greeting" src={require("../../assests/images/manOnTable.svg")}></img>
         </div>
       </div>
     </div>

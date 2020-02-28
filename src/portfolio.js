@@ -5,16 +5,16 @@ const greeting = {
   title: "Hello, World! 👋 I'm Pratik Shivaraikar",
   subTitle:
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1IJCQ86t7j7hDFQS7j-mQrZ_WpsscS4HU/view?usp=sharing"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/pratikms",
+  linkedin: "https://www.linkedin.com/in/pratik-shivaraikar/",
+  gmail: "pratik.shivaraikar@gmail.com",
+  // gitlab: "https://gitlab.com/pratikms",
+  // facebook: "https://www.facebook.com/pratik.shivaraikar"
 };
 
 const skillsSection = {
@@ -90,7 +90,7 @@ const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
 
-  githubConvertedToken: btoa(process.env.REACT_APP_GITHUB_ACCESS_TOKEN),
+  githubConvertedToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
   githubUserName: "pratikms"
 };
 
