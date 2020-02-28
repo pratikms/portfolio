@@ -1,5 +1,6 @@
 .dev-icons {
-  padding-left: 0;
+  /* padding-left: 0; */
+  padding: 5px 60px 0px 60px;
   list-style: none;
   font-size: 3rem;
   margin-bottom: 0px;
