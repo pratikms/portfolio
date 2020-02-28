@@ -16,13 +16,13 @@ function Header() {
         </label>
         <ul className="menu">
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills">About</a>
           </li>
           {/* <li>
             <a href="#projects">Projects</a>
           </li> */}
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#opensource">Work</a>
           </li>
           <li>
             <a href="#blogs">Blogs</a>
@@ -30,11 +30,11 @@ function Header() {
           {/* <li>
             <a href="#talks">Talks</a>
           </li> */}
-          <li>
+          {/* <li>
             <a href="#achievements">Achievements</a>
-          </li>
+          </li> */}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </header>
