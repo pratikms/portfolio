@@ -12,7 +12,7 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/pratikms",
   linkedin: "https://www.linkedin.com/in/pratik-shivaraikar/",
-  gmail: "pratik.shivaraikar@gmail.com",
+  gmail: "contact@pratikms.com",
   // gitlab: "https://gitlab.com/pratikms",
   // facebook: "https://www.facebook.com/pratik.shivaraikar"
 };
@@ -189,7 +189,7 @@ const contactInfo = {
   title: "Get In Touch",
   subtitle: "Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!",
   // number: "+92-3243454077",
-  email_address: "pratik.shivaraikar@gmail.com"
+  email_address: "contact@pratikms.com"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };

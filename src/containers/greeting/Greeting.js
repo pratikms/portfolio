@@ -14,7 +14,7 @@ export default function Greeting() {
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
             <div className="button-greeting-div">
-              <Button text="Get in touch" href="mailto:pratik.shivaraikar@gmail.com" />
+              <Button text="Get in touch" href="mailto:contact@pratikms.com" />
               <Button text="Resume" newTab={true} href={greeting.resumeLink} />
             </div>
           </div>
