@@ -4,7 +4,6 @@
 
 The first iteration of [https://pratikms.com](https://pratikms.com) hosted with [Netlify](https://www.netlify.com/)
 
-
 ## Getting Started 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
