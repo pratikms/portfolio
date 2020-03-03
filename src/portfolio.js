@@ -144,13 +144,13 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://pratikms.hashnode.dev/securing-cloud-infrastructure-with-ids-ck34hflpo0089pcs1ystafokn",
+      url: "https://blog.pratikms.com/securing-cloud-infrastructure-with-ids-ck34hflpo0089pcs1ystafokn",
       image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1582556518552/zC3mA8OOx.jpeg",
       title: "Securing Cloud with IDS",
       description: "An insight into securing your cloud infrastructure using open source technologies."
     },
     {
-      url: "https://pratikms.hashnode.dev/the-django-jargon-ck1zi1844011t9ns1x1yof2hv",
+      url: "https://blog.pratikms.com/the-django-jargon-ck1zi1844011t9ns1x1yof2hv",
       image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1571606086498/3mJWKc1Ss.png",
       title: "The Django Jargon",
       description: "Discussion about the typical jargons one encounters while dealing with Django for the first time."
