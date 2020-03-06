@@ -13,6 +13,10 @@ export default function Projects() {
   useEffect(() => {
     getRepoData();
   }, []);
+  
+  function setRepoFunction(array) {
+    setRepo(array);
+  }
 
   function getRepoData() {
     const client = new ApolloClient({
@@ -59,10 +63,6 @@ export default function Projects() {
       .then(result => {
         setRepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
       });
-  }
-  
-  function setRepoFunction(array) {
-    setRepo(array);
   }
   
   return (
