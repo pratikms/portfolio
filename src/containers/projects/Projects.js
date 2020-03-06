@@ -7,6 +7,12 @@ import Button from "../../components/button/Button";
 import { openSource } from "../../portfolio";
 
 export default function Projects() {
+  
+  const [repo, setRepo] = useState([]);
+
+  useEffect(() => {
+    getRepoData();
+  }, []);
 
   function getRepoData() {
     const client = new ApolloClient({
@@ -20,16 +26,6 @@ export default function Projects() {
       }
     });
 
-    function setRepoData(array) {
-      setRepo(array);
-    }
-    
-    const [repo, setRepo] = useState([]);  
-    
-      useEffect(() => {
-      getRepoData();
-    }, []);
-  
     client
       .query({
         query: gql`
@@ -61,10 +57,14 @@ export default function Projects() {
         `
       })
       .then(result => {
-        setRepoData(result.data.repositoryOwner.pinnedRepositories.edges);
+        setRepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
       });
   }
-
+  
+  function setRepoFunction(array) {
+    setRepo(array);
+  }
+  
   return (
     <div className="main" id="opensource">
       <h1 className="project-title">Some Things I've Built</h1>
