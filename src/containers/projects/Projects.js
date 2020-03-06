@@ -20,6 +20,10 @@ export default function Projects() {
       }
     });
 
+    function setRepoData(array) {
+      setRepo(array);
+    }
+  
     client
       .query({
         query: gql`
@@ -53,10 +57,6 @@ export default function Projects() {
       .then(result => {
         setRepoData(result.data.repositoryOwner.pinnedRepositories.edges);
       });
-  }
-
-  function setRepoData(array) {
-    setRepo(array);
   }
 
   useEffect(() => {
