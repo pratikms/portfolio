@@ -52,7 +52,6 @@ export default function Projects() {
       })
       .then(result => {
         setRepoData(result.data.repositoryOwner.pinnedRepositories.edges);
-        console.log(result)
       });
   }
 
@@ -62,7 +61,7 @@ export default function Projects() {
 
   useEffect(() => {
     getRepoData();
-  });
+  }, []);
 
   const [repo, setRepo] = useState([]);
 
