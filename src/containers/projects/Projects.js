@@ -23,6 +23,12 @@ export default function Projects() {
     function setRepoData(array) {
       setRepo(array);
     }
+    
+    const [repo, setRepo] = useState([]);  
+    
+      useEffect(() => {
+      getRepoData();
+    }, []);
   
     client
       .query({
@@ -58,12 +64,6 @@ export default function Projects() {
         setRepoData(result.data.repositoryOwner.pinnedRepositories.edges);
       });
   }
-
-  useEffect(() => {
-    getRepoData();
-  }, []);
-
-  const [repo, setRepo] = useState([]);
 
   return (
     <div className="main" id="opensource">
