@@ -7,11 +7,6 @@ import Button from "../../components/button/Button";
 import { openSource } from "../../portfolio";
 
 export default function Projects() {
-  const [repo, setrepo] = useState([]);
-
-  useEffect(() => {
-    getRepoData();
-  }, []);
 
   function getRepoData() {
     const client = new ApolloClient({
@@ -56,14 +51,20 @@ export default function Projects() {
         `
       })
       .then(result => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
-        console.log(result);
+        setRepoData(result.data.repositoryOwner.pinnedRepositories.edges);
+        console.log(result)
       });
   }
 
-  function setrepoFunction(array) {
-    setrepo(array);
+  function setRepoData(array) {
+    setRepo(array);
   }
+
+  useEffect(() => {
+    getRepoData();
+  });
+
+  const [repo, setRepo] = useState([]);
 
   return (
     <div className="main" id="opensource">
