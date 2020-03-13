@@ -10,7 +10,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
-    "dotenv": "8.2.0"
+    "dotenv": "8.2.0",
+    "gatsby": "2.18.21"
   },
   "scripts": {
     "start": "react-scripts start",
