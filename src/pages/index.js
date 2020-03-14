@@ -5,6 +5,9 @@ import React from "react"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import Main from "../containers/Main"
+import '../styles/index.css'
+import '../styles/font-awesome/css/all.css'
+
 
 const IndexPage = () => (
   <>
