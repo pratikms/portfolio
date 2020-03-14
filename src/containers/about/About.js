@@ -6,7 +6,7 @@ import { skillsSection } from "../../portfolio"
 
 export default function Skills() {
   return (
-    <div className="main" id="skills">
+    <div className="main" id="about">
       <div className="skills-main-div">
         <div className="skills-image-div">
           <img alt="Working" src={require("../../images/developerActivity.svg")}></img>
