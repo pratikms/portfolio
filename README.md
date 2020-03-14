@@ -21,14 +21,14 @@ git@2.17.1 or higher
 
 ## How To Use
 
-From your command line, clone and run developerFolio:
+From your command line, clone and run portfolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/pratikms/developerFolio.git
+$ git clone https://github.com/pratikms/portfolio.git
 
 # Go into the repository
-$ cd developerFolio
+$ cd portfolio
 
 # Install dependencies
 $ npm install
@@ -56,7 +56,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 
 ## For the Future 
-If you can help with these. Please don't hesitate to open an [pull request](https://github.com/pratikms/developerFolio/pulls).
+If you can help with these. Please don't hesitate to open an [pull request](https://github.com/pratikms/portfolio/pulls).
 
 - Connect with LinkedIn to get Summary, Skills, Education and Experience
 
