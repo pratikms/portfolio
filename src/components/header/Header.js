@@ -2,10 +2,13 @@ import React from "react";
 import "./Header.css";
 
 function Header() {
+
+  const loc = typeof window !== `undefined` ? window.location.href : `#`
+
   return (
     <div>
       <header className="header">
-        <a href={`${window.location.href}`} className="logo">
+        <a href={`${loc}`} className="logo">
           <span className="logo-name">PRATIKMS</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
