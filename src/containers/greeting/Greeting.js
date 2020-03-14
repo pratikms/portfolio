@@ -1,8 +1,9 @@
-import React from "react";
-import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
+import React from "react"
+
+import "./Greeting.css"
+import SocialMedia from "../../components/socialMedia/SocialMedia"
+import Button from "../../components/button/Button"
+import { greeting } from "../../portfolio"
 
 export default function Greeting() {
   return (
@@ -24,5 +25,5 @@ export default function Greeting() {
         </div>
       </div>
     </div>
-  );
+  )
 }
