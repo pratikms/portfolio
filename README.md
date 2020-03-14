@@ -42,8 +42,8 @@ $ npm run build
 
 ## Technologies used
 
-- [React](https://reactjs.org/)
 - [Gatsby](https://www.gatsbyjs.org/)
+- [React](https://reactjs.org/)
 - [graphql](https://graphql.org/) 
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 
