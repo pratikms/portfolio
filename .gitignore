@@ -26,3 +26,8 @@ build
 
 # Local Netlify folder
 .netlify
+
+.cache/
+.yarn/
+public/
+

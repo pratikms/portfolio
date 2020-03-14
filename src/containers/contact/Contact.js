@@ -1,7 +1,8 @@
-import React from "react";
-import "./Contact.css";
-import Button from "../../components/button/Button";
-import {contactInfo} from "../../portfolio";
+import React from "react"
+
+import "./Contact.css"
+import Button from "../../components/button/Button"
+import {contactInfo} from "../../portfolio"
 
 export default function Contact() {
     return (
@@ -17,5 +18,5 @@ export default function Contact() {
                 </div>
             </div>
         </div>
-    );
+    )
 }

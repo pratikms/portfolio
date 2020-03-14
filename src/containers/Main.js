@@ -1,15 +1,13 @@
-import React, { Component } from "react";
-import Header from "../components/header/Header";
-import Greeting from "./greeting/Greeting";
-import Skills from "./skills/Skills";
-import Projects from "./projects/Projects";
-// import StartupProject from "./StartupProjects/StartupProject";
-// import Achievement from "./achievement/Achievement";
+import React, { Component } from "react"
+
+import Header from "../components/header/Header"
+import Greeting from "./greeting/Greeting"
+import About from "./about/About"
+import Work from "./work/Work";
 import Blogs from "./blogs/Blogs";
 import Contact from "./contact/Contact";
-import Footer from "../components/footer/Footer";
-// import Talks from "./talks/Talks";
-// import Podcast from "./podcast/Podcast";
+import Footer from "../components/footer/Footer"
+import "./Main.css"
 
 export default class Main extends Component {
   render() {
@@ -17,13 +15,9 @@ export default class Main extends Component {
       <div>
         <Header />
         <Greeting />
-        <Skills />
-        <Projects />
-        {/* <StartupProject /> */}
-        {/* <Achievement /> */}
+        <About />
+        <Work />
         <Blogs />
-        {/* <Talks /> */}
-        {/* <Podcast /> */}
         <Contact />
         <Footer />
       </div>

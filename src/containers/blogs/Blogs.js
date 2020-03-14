@@ -1,8 +1,9 @@
-import React from "react";
-import "./Blog.css";
-import BlogCard from "../../components/blogCard/BlogCard";
-import Button from "../../components/button/Button";
-import { blogSection } from "../../portfolio";
+import React from "react"
+
+import "./Blog.css"
+import BlogCard from "../../components/blogCard/BlogCard"
+import Button from "../../components/button/Button"
+import { blogSection } from "../../portfolio"
 
 export default function Blogs() {
   return (
@@ -24,11 +25,11 @@ export default function Blogs() {
                 }}
                 key={blog.url}
               />
-            );
+            )
           })}
         </div>
       </div>
       <Button text={"Read More"} className="project-button" href="https://blog.pratikms.com" newTab={true} />
     </div>
-  );
+  )
 }

@@ -2,13 +2,14 @@ import React from "react";
 import "./Header.css";
 
 function Header() {
+
+  const loc = typeof window !== `undefined` ? window.location.origin : `#`
+
   return (
     <div>
       <header className="header">
-        <a href={`${window.location.href}`} className="logo">
-          {/* <span className="grey-color"> &lt;</span> */}
+        <a href={`${loc}`} className="logo">
           <span className="logo-name">PRATIKMS</span>
-          {/* <span className="grey-color">/&gt;</span> */}
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
@@ -16,23 +17,14 @@ function Header() {
         </label>
         <ul className="menu">
           <li>
-            <a href="#skills">About</a>
+            <a href="#about">About</a>
           </li>
-          {/* <li>
-            <a href="#projects">Projects</a>
-          </li> */}
           <li>
-            <a href="#opensource">Work</a>
+            <a href="#work">Work</a>
           </li>
           <li>
             <a href="#blogs">Blogs</a>
           </li>
-          {/* <li>
-            <a href="#talks">Talks</a>
-          </li> */}
-          {/* <li>
-            <a href="#achievements">Achievements</a>
-          </li> */}
           <li>
             <a href="#contact">Contact</a>
           </li>

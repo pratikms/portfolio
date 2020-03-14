@@ -1,8 +1,9 @@
-import React from "react";
-import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
+import React from "react"
+
+import "./Greeting.css"
+import SocialMedia from "../../components/socialMedia/SocialMedia"
+import Button from "../../components/button/Button"
+import { greeting } from "../../portfolio"
 
 export default function Greeting() {
   return (
@@ -20,9 +21,9 @@ export default function Greeting() {
           </div>
         </div>
         <div className="greeting-image-div">
-          <img alt="greeting" src={require("../../assests/images/manOnTable.svg")}></img>
+          <img alt="greeting" src={require("../../images/manOnTable.svg")}></img>
         </div>
       </div>
     </div>
-  );
+  )
 }
