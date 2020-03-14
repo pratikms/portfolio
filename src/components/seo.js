@@ -75,7 +75,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `Software Engineer. Pratik Shivaraikar's personal website.`,
 }
 
 SEO.propTypes = {
