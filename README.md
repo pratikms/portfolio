@@ -1,7 +1,5 @@
 # Portfolio
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f59250fe74b0400990c4f219b3271156)](https://www.codacy.com/manual/pratikms/developerFolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pratikms/developerFolio&amp;utm_campaign=Badge_Grade)&nbsp;
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fd85c878-b40c-4359-bf7d-d28a003c3913/deploy-status)](https://app.netlify.com/sites/pratikms/deploys)&nbsp;
-![Node.js CI](https://github.com/pratikms/developerFolio/workflows/Node.js%20CI/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd85c878-b40c-4359-bf7d-d28a003c3913/deploy-status)](https://app.netlify.com/sites/pratikms/deploys)
 
 The first iteration of [https://pratikms.com](https://pratikms.com) built with [Gatsby](https://www.gatsbyjs.org/) and hosted with [Netlify](https://www.netlify.com/)
 
