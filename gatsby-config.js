@@ -2,7 +2,14 @@ module.exports = {
   siteMetadata: {
     title: `Pratik Shivaraikar`,
     description: `Software Engineer. Pratik Shivaraikar's personal website.`,
-    author: `pratikms`,
+    author: `Pratik Shivaraikar <pratik.shivaraikar@gmail.com>`,
+    siteUrl: `https://pratikms.com/`,
+    siteLanguage: `en`,
+    ogLanguage: `en`,
+    headline: `Pratik Shivaraikar`,
+    twitter: `@pmshivaraikar`,
+    facebook: `pratik.shivaraikar`,
+    banner: `/src/images/favicon.png`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +34,7 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-advanced-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
