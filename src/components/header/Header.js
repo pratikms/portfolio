@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header() {
 
-  const loc = typeof window !== `undefined` ? window.location.href : `#`
+  const loc = typeof window !== `undefined` ? window.location.origin : `#`
 
   return (
     <div>
