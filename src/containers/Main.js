@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 import Header from "../components/header/Header"
 import Greeting from "./greeting/Greeting"
-import Skills from "./skills/Skills"
+import About from "./about/About"
 // import Projects from "./projects/Projects";
 // import Blogs from "./blogs/Blogs";
 // import Contact from "./contact/Contact";
@@ -15,7 +15,7 @@ export default class Main extends Component {
       <div>
         <Header />
         <Greeting />
-        <Skills />
+        <About />
         {/* <Projects />
         <Blogs />
         <Contact /> */}
