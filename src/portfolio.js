@@ -79,7 +79,7 @@ const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
 
-  githubConvertedToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
+  githubConvertedToken: process.env.GATSBY_GITHUB_ACCESS_TOKEN,
   githubUserName: "pratikms"
 };
 
