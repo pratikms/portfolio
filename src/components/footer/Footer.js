@@ -1,5 +1,6 @@
-import React from "react";
-import "./Footer.css";
+import React from "react"
+
+import "./Footer.css"
 
 export default function Footer() {
   return (
@@ -7,5 +8,5 @@ export default function Footer() {
       <p className="footer-text">Made with <span role="img" aria-label="love">❤️</span> by Pratik Shivaraikar</p>
       <p className="footer-text">© {new Date().getFullYear()}</p>
     </div>
-  );
+  )
 }
