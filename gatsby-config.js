@@ -49,9 +49,12 @@ module.exports = {
         id: process.env.GATSBY_GOOGLE_TAG_MANAGER_ID || "none",
       },
     },
-    `gatsby-plugin-advanced-sitemap`
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`],
+      },
+    }
   ],
 }
