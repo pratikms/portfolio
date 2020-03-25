@@ -25,12 +25,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Pratik Shivaraikar`,
+        short_name: `pratikms`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        background_color: `#0a192f`,
+        theme_color: `#0a192f`,
+        display: `standalone`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
