@@ -70,6 +70,7 @@ const openSource = {
 const blogSection = {
   title: "Blogs",
   subtitle: "Whenever I find time, I also like to write about whatever I have learned:",
+  url: "https://blog.pratikms.com"
 }
 
 const contactInfo = {

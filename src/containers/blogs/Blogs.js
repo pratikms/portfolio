@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
+import ApolloClient, { gql } from "apollo-boost"
 
 import "./Blog.css"
 import BlogCard from "../../components/blogCard/BlogCard"
@@ -6,6 +7,52 @@ import Button from "../../components/button/Button"
 import { blogSection } from "../../portfolio"
 
 export default function Blogs() {
+
+  const [blogs, setBlogs] = useState([])
+
+  useEffect(() => {
+    getBlogs()
+  }, [])
+
+  function getBlogs() {
+
+    const client = new ApolloClient({
+      uri: "https://api.hashnode.com",
+      request: operation => {
+        operation.setContext({
+          headers: {
+            authorization: process.env.GATSBY_HASHNODE_ACCESS_TOKEN
+          }
+        })
+      }
+    })
+
+    client
+      .query({
+        query: gql`
+          {
+            user(username: "pratikms") {
+              publication {
+                title
+                posts {
+                  title
+                  brief
+                  coverImage
+                  slug
+                  cuid
+                  dateAdded
+                }
+              }
+            }
+          }
+        `
+      })
+      .then(result => {
+        setBlogs(result.data.user.publication.posts.slice(0, 3))
+      })
+
+  }
+
   return (
     <div className="main" id="blogs">
       <div className="blog-header">
@@ -14,22 +61,22 @@ export default function Blogs() {
       </div>
       <div className="blog-main-div">
         <div className="blog-text-div">
-          {blogSection.blogs.map(blog => {
+          {blogs.map(blog => {
             return (
               <BlogCard
                 blog={{
-                  url: blog.url,
-                  image: blog.image,
+                  url: `${blogSection.url}/${blog.slug}-${blog.cuid}`,
+                  image: blog.coverImage,
                   title: blog.title,
-                  description: blog.description
+                  description: blog.brief
                 }}
-                key={blog.url}
+                key={blog.cuid}
               />
             )
           })}
         </div>
       </div>
-      <Button text={"Read More"} className="project-button" href="https://blog.pratikms.com" newTab={true} />
+      <Button text={"Read More"} className="project-button" href={blogSection.url} newTab={true} />
     </div>
   )
 }
