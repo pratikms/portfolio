@@ -2,7 +2,7 @@ const greeting = {
   title: "Hello, World! 👋 I'm Pratik Shivaraikar",
   subTitle:
     "I'm a passionate Software Engineer based in Pune, India specializing in building exceptional, high-quality software products.",
-  resumeLink: "https://drive.google.com/file/d/1fAs2NxbS_0vl6v33bv4ixsYfuXhwgiM0/view?usp=sharing"
+  resumeLink: "/resume.pdf"
 }
 
 const socialMediaLinks = {
