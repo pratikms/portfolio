@@ -4632,9 +4632,9 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
 
-gatsby-cli@^2.11.1:
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.11.1.tgz#d6fddf35bf36e1d9d90ca559be60f85e716d8b1e"
+gatsby-cli@^2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.11.4.tgz#2ce22a0eceff16d283eae5639522bf6596c97192"
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/runtime" "^7.8.7"
@@ -4652,7 +4652,7 @@ gatsby-cli@^2.11.1:
     fs-exists-cached "^1.0.0"
     fs-extra "^8.1.0"
     gatsby-core-utils "^1.1.1"
-    gatsby-telemetry "^1.2.1"
+    gatsby-telemetry "^1.2.3"
     hosted-git-info "^3.0.4"
     is-valid-path "^0.1.1"
     lodash "^4.17.15"
@@ -4778,7 +4778,7 @@ gatsby-plugin-page-creator@^2.2.1:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet@^3.2.1:
+gatsby-plugin-react-helmet@^3.1.21:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.2.1.tgz#28a89e884e5447f7aefead2a80749e3745f5f5a9"
   dependencies:
@@ -4836,9 +4836,9 @@ gatsby-source-filesystem@^2.1.46:
     valid-url "^1.0.9"
     xstate "^4.8.0"
 
-gatsby-telemetry@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.2.1.tgz#6b04db03c6070657e6fa903b5d43d89d7a86d44b"
+gatsby-telemetry@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.2.3.tgz#0b38068bbc85a597afb7ee407fb0240997cec6ef"
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/runtime" "^7.8.7"
@@ -4870,9 +4870,9 @@ gatsby-transformer-sharp@^2.3.13:
     semver "^5.7.1"
     sharp "^0.23.4"
 
-gatsby@^2.20.5:
-  version "2.20.5"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.5.tgz#07966b1f900951319b1b02556bbb3595c9cb0566"
+gatsby@^2.20.10:
+  version "2.20.10"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.10.tgz#29ed10965a424cabc621430020f78fda79700fbb"
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.8.7"
@@ -4935,13 +4935,13 @@ gatsby@^2.20.5:
     flat "^4.1.0"
     fs-exists-cached "1.0.0"
     fs-extra "^8.1.0"
-    gatsby-cli "^2.11.1"
+    gatsby-cli "^2.11.4"
     gatsby-core-utils "^1.1.1"
     gatsby-graphiql-explorer "^0.3.1"
     gatsby-link "^2.3.1"
     gatsby-plugin-page-creator "^2.2.1"
     gatsby-react-router-scroll "^2.2.1"
-    gatsby-telemetry "^1.2.1"
+    gatsby-telemetry "^1.2.3"
     glob "^7.1.6"
     got "8.3.2"
     graphql "^14.6.0"
