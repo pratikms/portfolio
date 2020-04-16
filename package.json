@@ -7,7 +7,7 @@
   "dependencies": {
     "apollo-boost": "^0.4.4",
     "dotenv": "8.2.0",
-    "gatsby": "^2.20.5",
+    "gatsby": "^2.20.22",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-advanced-sitemap": "^1.5.2",
     "gatsby-plugin-google-analytics": "^2.2.2",
