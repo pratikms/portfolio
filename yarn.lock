@@ -4739,9 +4739,9 @@ gatsby-plugin-google-analytics@^2.2.2:
     "@babel/runtime" "^7.8.7"
     minimatch "3.0.4"
 
-gatsby-plugin-google-tagmanager@^2.1.26:
-  version "2.1.27"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.1.27.tgz#8da82f5868b1d6beb46bfd0959440d0833f4cdf4"
+gatsby-plugin-google-tagmanager@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.2.4.tgz#501a1996df279db16ad151d708a55b9923b2c3fd"
   dependencies:
     "@babel/runtime" "^7.8.7"
 
@@ -4778,9 +4778,9 @@ gatsby-plugin-page-creator@^2.2.1:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.2.1.tgz#28a89e884e5447f7aefead2a80749e3745f5f5a9"
+gatsby-plugin-react-helmet@^3.1.21:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.2.5.tgz#af1290298f8826eafbbd383cb0a7f741e8f37821"
   dependencies:
     "@babel/runtime" "^7.8.7"
 
