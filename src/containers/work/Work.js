@@ -35,12 +35,13 @@ export default function Projects() {
       .query({
         query: gql`
           {
-            repositoryOwner(login: "${openSource.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
+            user(login: "${openSource.githubUserName}") {
+              pinnedItems(first: 6, types: [REPOSITORY]) {
+                totalCount
+                edges {
+                  node {
+                    ... on Repository {
+                      name
                       description
                       forkCount
                       stargazers {
@@ -62,7 +63,7 @@ export default function Projects() {
         `
       })
       .then(result => {
-        setRepoFunction(result.data.repositoryOwner.pinnedRepositories.edges)
+        setRepoFunction(result.data.user.pinnedItems.edges)
       })
   }
   
