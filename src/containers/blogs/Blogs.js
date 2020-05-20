@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import ApolloClient, { gql } from "apollo-boost"
+import { Fade } from "react-reveal"
 
 import "./Blog.css"
 import BlogCard from "../../components/blogCard/BlogCard"
@@ -54,29 +55,31 @@ export default function Blogs() {
   }
 
   return (
-    <div className="main" id="blogs">
-      <div className="blog-header">
-        <h1 className="blog-header-text">{blogSection.title}</h1>
-        <p className="subTitle blog-subtitle">{blogSection.subtitle}</p>
-      </div>
-      <div className="blog-main-div">
-        <div className="blog-text-div">
-          {blogs.map(blog => {
-            return (
-              <BlogCard
-                blog={{
-                  url: `${blogSection.url}/${blog.slug}-${blog.cuid}`,
-                  image: blog.coverImage,
-                  title: blog.title,
-                  description: blog.brief
-                }}
-                key={blog.cuid}
-              />
-            )
-          })}
+    <Fade bottom cascade duration={1000} distance="20px">
+      <div className="main" id="blogs">
+        <div className="blog-header">
+          <h1 className="blog-header-text">{blogSection.title}</h1>
+          <p className="subTitle blog-subtitle">{blogSection.subtitle}</p>
         </div>
+        <div className="blog-main-div">
+          <div className="blog-text-div">
+            {blogs.map(blog => {
+              return (
+                <BlogCard
+                  blog={{
+                    url: `${blogSection.url}/${blog.slug}-${blog.cuid}`,
+                    image: blog.coverImage,
+                    title: blog.title,
+                    description: blog.brief
+                  }}
+                  key={blog.cuid}
+                />
+              )
+            })}
+          </div>
+        </div>
+        <Button text={"Read More"} className="project-button" href={blogSection.url} newTab={true} />
       </div>
-      <Button text={"Read More"} className="project-button" href={blogSection.url} newTab={true} />
-    </div>
+    </Fade>
   )
 }
