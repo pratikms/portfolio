@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react"
-
 import ApolloClient from "apollo-boost"
 import { gql } from "apollo-boost"
+import { Fade } from "react-reveal"
+
 import "./Work.css"
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard"
 import Button from "../../components/button/Button"
 import { openSource } from "../../portfolio"
 
-export default function Projects() {
+export default function Work() {
   
   const [repo, setRepo] = useState([])
 
@@ -68,14 +69,16 @@ export default function Projects() {
   }
   
   return (
-    <div className="main" id="work">
-      <h1 className="project-title">Some Things I've Built</h1>
-      <div className="repo-cards-div-main">
-        {repo.map((v, i) => {
-          return <GithubRepoCard repo={v} key={v.node.id} />
-        })}
+    <Fade bottom cascade duration={1000} distance="20px">
+      <div className="main" id="work">
+        <h1 className="project-title">Some Things I've Built</h1>
+        <div className="repo-cards-div-main">
+          {repo.map((v, i) => {
+            return <GithubRepoCard repo={v} key={v.node.id} />
+          })}
+        </div>
+        <Button text={"More Projects"} className="project-button" href="https://github.com/pratikms" newTab={true} />
       </div>
-      <Button text={"More Projects"} className="project-button" href="https://github.com/pratikms" newTab={true} />
-    </div>
+    </Fade>
   )
 }
