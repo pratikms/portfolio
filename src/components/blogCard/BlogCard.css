@@ -9,7 +9,7 @@
 
 .square {
   width: 440px;
-  height: 340px;
+  height: 380px;
   background: rgb(10, 25, 47);
   border-radius: 4px;
   box-shadow: #172a45 0px 20px 30px -10px;
@@ -28,13 +28,13 @@
 
 .blog-card-image {
   width: 440px;
-  height: 200px;
+  height: 250px;
 }
 
 .blog-card-title {
   margin: auto;
   text-align: left;
-  margin-top: 220px;
+  margin-top: 260px;
   padding: 0 30px;
   font-size: 24px;
   overflow: hidden;
