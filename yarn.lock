@@ -5278,7 +5278,7 @@ gatsby-recipes@^0.1.24:
     ws "^7.3.0"
     xstate "^4.9.1"
 
-gatsby-source-filesystem@^2.3.0:
+gatsby-source-filesystem@^2.3.7:
   version "2.3.7"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.7.tgz#f5417ad748dac585680a1a92ddd37ca0111d4966"
   dependencies:
