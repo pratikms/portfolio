@@ -5163,7 +5163,7 @@ gatsby-plugin-google-tagmanager@^2.3.0:
   dependencies:
     "@babel/runtime" "^7.9.6"
 
-gatsby-plugin-manifest@^2.4.1:
+gatsby-plugin-manifest@^2.4.8:
   version "2.4.8"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.8.tgz#c6834829a983ba423e7f8befce181bc0348703ff"
   dependencies:
