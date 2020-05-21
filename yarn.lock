@@ -5121,9 +5121,9 @@ gatsby-plugin-google-analytics@^2.3.2:
     "@babel/runtime" "^7.9.6"
     minimatch "3.0.4"
 
-gatsby-plugin-google-tagmanager@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.3.2.tgz#c9a7f435725dc68592373f5933d403f604b8e943"
+gatsby-plugin-google-tagmanager@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.3.3.tgz#d0266a07abd665178a9f4758cdb779f1886b4c91"
   dependencies:
     "@babel/runtime" "^7.9.6"
 
