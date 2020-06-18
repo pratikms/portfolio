@@ -49,7 +49,7 @@ export default function Blogs() {
         `
       })
       .then(result => {
-        setBlogs(result.data.user.publication.posts.slice(0, 3))
+        setBlogs(result.data.user.publication.posts.slice(0, 6))
       })
 
   }
