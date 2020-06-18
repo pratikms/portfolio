@@ -52,7 +52,6 @@ export default function Work() {
                       }
                       url
                       id
-                      diskUsage
                       primaryLanguage {
                         name
                         color
