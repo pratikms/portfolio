@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from "react"
+// import React, { useState, useEffect, lazy, Suspense } from "react"
 import ApolloClient, { gql } from "apollo-boost"
 import { Fade } from "react-reveal"
 
 import "./Blog.css"
 import BlogCard from "../../components/blogCard/BlogCard"
 import Button from "../../components/button/Button"
+// import Loading from "../loading/Loading"
 import { blogSection } from "../../portfolio"
 
 export default function Blogs() {
 
+  // const BlogCard = lazy(() => import("../../components/blogCard/BlogCard"))
+  // const FailedLoading = () => null
+  // const RenderLoader = () => <Loading />
   const [blogs, setBlogs] = useState([])
 
   useEffect(() => {
@@ -51,10 +56,14 @@ export default function Blogs() {
       .then(result => {
         setBlogs(result.data.user.publication.posts.slice(0, 6))
       })
-
+      // .catch(function (error) {
+      //   setBlogs("Error")
+      // })
   }
 
+  // if (!(typeof blogs === 'string' || blogs instanceof String)) {
   return (
+    // <Suspense fallback={RenderLoader()}>
     <Fade bottom cascade duration={1000} distance="20px">
       <div className="main" id="blogs">
         <div className="blog-header">
@@ -81,5 +90,9 @@ export default function Blogs() {
         <Button text={"Read More"} className="project-button" href={blogSection.url} newTab={true} />
       </div>
     </Fade>
+    // </Suspense>
   )
+  // } else {
+  //   return(<FailedLoading />)
+  // }
 }

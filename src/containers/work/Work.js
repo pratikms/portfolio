@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react"
+// import React, { useState, useEffect, Suspense } from "react"
+// import loadable from '@loadable/component'
 import ApolloClient from "apollo-boost"
 import { gql } from "apollo-boost"
 import { Fade } from "react-reveal"
@@ -6,10 +8,14 @@ import { Fade } from "react-reveal"
 import "./Work.css"
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard"
 import Button from "../../components/button/Button"
+// import Loading from "../loading/Loading"
 import { openSource } from "../../portfolio"
 
 export default function Work() {
   
+  // const GithubRepoCard = loadable(() => import("../../components/githubRepoCard/GithubRepoCard"))
+  // const FailedLoading = () => null
+  // const RenderLoader = () => <Loading />
   const [repo, setRepo] = useState([])
 
   useEffect(() => {
@@ -50,7 +56,6 @@ export default function Work() {
                       }
                       url
                       id
-                      diskUsage
                       primaryLanguage {
                         name
                         color
@@ -66,9 +71,14 @@ export default function Work() {
       .then(result => {
         setRepoFunction(result.data.user.pinnedItems.edges)
       })
+      // .catch(function (error) {
+      //   setRepoFunction("Error")
+      // })
   }
   
+  // if (!(typeof repo === 'string' || repo instanceof String)) {
   return (
+    // <Suspense fallback={RenderLoader()}>
     <Fade bottom cascade duration={1000} distance="20px">
       <div className="main" id="work">
         <h1 className="project-title">Some Things I've Built</h1>
@@ -80,5 +90,9 @@ export default function Work() {
         <Button text={"More Projects"} className="project-button" href="https://github.com/pratikms" newTab={true} />
       </div>
     </Fade>
+    // </Suspense>
   )
+  // } else {
+  //   return(<FailedLoading />)
+  // }
 }
