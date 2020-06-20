@@ -3,6 +3,7 @@ import React, { Component } from "react"
 import Header from "../components/header/Header"
 import Greeting from "./greeting/Greeting"
 import About from "./about/About"
+import Experience from "./experience/Experience"
 import Work from "./work/Work";
 import Blogs from "./blogs/Blogs";
 import Contact from "./contact/Contact";
@@ -16,6 +17,7 @@ export default class Main extends Component {
         <Header />
         <Greeting />
         <About />
+        <Experience />
         <Work />
         <Blogs />
         <Contact />
