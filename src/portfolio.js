@@ -66,9 +66,12 @@ const experience = {
   showExperience: true, //Set it to true to show experience Section
   experience: [
     {
+      key: 3,
       role: "Principal Development Engineer",  
       company: "Calsoft",
-      companylogo: require("./images/calsoft.jpg"),
+      companyLogo: require("./images/calsoft.jpg"),
+      companyHomepage: "https://calsoftinc.com/",
+      background: "rgb(230, 22, 29)",
       date: "Jun 2019 – Present",
       desc: "Contracted to Lenovo for working on Lenovo XClarity™ data-center management solutions",
       descBullets: [
@@ -78,9 +81,12 @@ const experience = {
       ]
     },
     {
+      key: 2,
       role: "Software Engineer",   
       company: "Quick Heal",
-      companylogo: require("./images/quickheal.png"),
+      companyLogo: require("./images/quickheal.png"),
+      companyHomepage: "https://www.quickheal.com/",
+      background: "rgb(244, 100, 28)",
       date: "Feb 2018 – Jun 2019",
       desc: "Worked on Shared Services of Licensing and Activation across all Quick Heal products",
       descBullets: [
@@ -90,9 +96,12 @@ const experience = {
       ]
     },
     {
+      key: 1,
       role: "Software Engineer",  
       company: "Wifi-soft Solutions",
-      companylogo: require("./images/wifi-soft.jpeg"),
+      companyLogo: require("./images/wifi-soft.jpeg"),
+      companyHomepage: "https://www.wifi-soft.com/",
+      background: "rgb(5, 52, 91)",
       date: "Jun 2015 – Feb 2018",
       desc: "Worked on Enterprise, Hotspot and IoT solutions to monetize WiFI",
       descBullets: [
@@ -102,7 +111,7 @@ const experience = {
       ]
     },
   ]
-};
+}
 
 const openSource = {
   githubConvertedToken: process.env.GATSBY_GITHUB_ACCESS_TOKEN,
