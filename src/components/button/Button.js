@@ -1,5 +1,5 @@
-import React from "react";
-import "./Button.css";
+import React from "react"
+import "./Button.css"
 
 export default function Button({ text, className, href, newTab }) {
   return (
@@ -8,5 +8,5 @@ export default function Button({ text, className, href, newTab }) {
         {text}
       </a>
     </div>
-  );
+  )
 }
