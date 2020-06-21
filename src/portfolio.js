@@ -62,6 +62,57 @@ const skillsSection = {
   ]
 }
 
+const experience = {
+  showExperience: true, //Set it to true to show experience Section
+  experience: [
+    {
+      key: 3,
+      role: "Principal Development Engineer",  
+      company: "Calsoft",
+      companyLogo: require("./images/calsoft.jpg"),
+      companyHomepage: "https://calsoftinc.com/",
+      background: "rgb(230, 22, 29)",
+      date: "Jun 2019 – Present",
+      desc: "Contracted to Lenovo for working on Lenovo XClarity™ data-center management solutions",
+      descBullets: [
+        "Major contributor of the Third-party Integrations Team, working on data-forwarding micro-services",
+        "Active developer to Lenovo's various open-source projects like PyLXCA, Lenovo Ansible, etc.",
+        "Lead contributor for integrating SIEM tools like Splunk to collect, analyze and derive meaningful insights from events collected from Lenovo hardware"
+      ]
+    },
+    {
+      key: 2,
+      role: "Software Engineer",   
+      company: "Quick Heal",
+      companyLogo: require("./images/quickheal.png"),
+      companyHomepage: "https://www.quickheal.com/",
+      background: "rgb(244, 100, 28)",
+      date: "Feb 2018 – Jun 2019",
+      desc: "Worked on Shared Services of Licensing and Activation across all Quick Heal products",
+      descBullets: [
+        "Developed Partner Portal for Key Generation and Activation",
+        "Designed and implemented a highly-performant Geo-location API to be used by all Quick Heal products and saving considerable YOY expenditure",
+        "Delivered multiple POCs for supporting server migration from on-prem to cloud"
+      ]
+    },
+    {
+      key: 1,
+      role: "Software Engineer",  
+      company: "Wifi-soft Solutions",
+      companyLogo: require("./images/wifi-soft.jpeg"),
+      companyHomepage: "https://www.wifi-soft.com/",
+      background: "rgb(5, 52, 91)",
+      date: "Jun 2015 – Feb 2018",
+      desc: "Worked on Enterprise, Hotspot and IoT solutions to monetize WiFI",
+      descBullets: [
+        "Developed Unibox 3.0 — a multicontroller — from ground up",
+        "Developed real-time dashboard providing analytics collected from all the IoT devices for the Sensors product",
+        "Implemented Kibo Partner Management (KPM) — a complete solution for Partners, Distributers and Vendors to manage their hotspots"
+      ]
+    },
+  ]
+}
+
 const openSource = {
   githubConvertedToken: process.env.GATSBY_GITHUB_ACCESS_TOKEN,
   githubUserName: "pratikms"
@@ -80,4 +131,4 @@ const contactInfo = {
   email_address: "contact@pratikms.com"
 }
 
-export { greeting, socialMediaLinks, skillsSection, openSource, blogSection, contactInfo }
+export { greeting, socialMediaLinks, skillsSection, experience, openSource, blogSection, contactInfo }
