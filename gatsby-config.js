@@ -9,7 +9,7 @@ module.exports = {
     headline: `Pratik Shivaraikar`,
     twitter: `@pmshivaraikar`,
     facebook: `pratik.shivaraikar`,
-    banner: `/src/images/favicon.png`
+    banner: `/src/images/favicon.webp`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,7 +31,7 @@ module.exports = {
         background_color: `#0a192f`,
         theme_color: `#0a192f`,
         display: `standalone`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.webp`, // This path is relative to the root of the site.
       },
     },
     {

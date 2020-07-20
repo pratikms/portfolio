@@ -11,7 +11,7 @@ export default function About() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            <img alt="Working" src={require("../../images/developerActivity.svg")}></img>
+            <img alt="Working" src={require("../../images/working.webp")}></img>
           </div>
         </Fade>
         <Fade right duration={1000}>

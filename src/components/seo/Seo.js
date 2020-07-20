@@ -172,7 +172,7 @@ const SEO = ({ title, desc, banner, pathname, article, node }) => {
 SEO.defaultProps = {
   title: `Pratik Shivaraikar`,
   desc: `Software Engineer. Pratik Shivaraikar's personal website.`,
-  banner: `/src/images/favicon.png`,
+  banner: `/src/images/favicon.webp`,
   pathname: null,
   article: false,
   node: null,

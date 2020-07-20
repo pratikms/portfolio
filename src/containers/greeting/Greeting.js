@@ -23,7 +23,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img alt="greeting" src={require("../../images/manOnTable.svg")}></img>
+            <img alt="greeting" src={require("../../images/greeting.webp")}></img>
           </div>
         </div>
       </div>
