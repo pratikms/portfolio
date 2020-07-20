@@ -77,10 +77,34 @@ const SEO = ({ title, desc, banner, pathname, article, node }) => {
     {
       '@type': 'ListItem',
       item: {
-        '@id': siteUrl,
-        name: 'Homepage',
+        '@id': siteUrl + '/#blogs',
+        name: 'Blogs',
       },
       position: 1,
+    },
+    {
+      '@type': 'ListItem',
+      item: {
+        '@id': siteUrl + '/#work',
+        name: 'Work',
+      },
+      position: 2,
+    },
+    {
+      '@type': 'ListItem',
+      item: {
+        '@id': siteUrl + '/#experience',
+        name: 'Experience',
+      },
+      position: 3,
+    },
+    {
+      '@type': 'ListItem',
+      item: {
+        '@id': siteUrl + '/#contact',
+        name: 'Contact',
+      },
+      position: 4,
     },
   ]
 
@@ -125,20 +149,22 @@ const SEO = ({ title, desc, banner, pathname, article, node }) => {
       mainEntityOfPage: seo.url,
     }
     // Push current blogpost into breadcrumb list
-    itemListElement.push({
-      '@type': 'ListItem',
-      item: {
-        '@id': seo.url,
-        name: seo.title,
-      },
-      position: 2,
-    })
+    itemListElement.push([
+      {
+        '@type': 'ListItem',
+        item: {
+          '@id': seo.url + '',
+          name: 'Blogs',
+        },
+        position: 2,
+      }
+    ])
   }
 
   const breadcrumb = {
     '@context': 'http://schema.org',
     '@type': 'BreadcrumbList',
-    description: 'Pratik Shivaraikar\'s personal website.',
+    description: `I'm a Software Engineer who loves solving real world problems. I love what I do, and am constantly honing my craft. Check out to know more!`,
     name: 'Pratik Shivaraikar',
     itemListElement,
   }
@@ -171,7 +197,7 @@ const SEO = ({ title, desc, banner, pathname, article, node }) => {
 
 SEO.defaultProps = {
   title: `Pratik Shivaraikar`,
-  desc: `Software Engineer. Pratik Shivaraikar's personal website.`,
+  desc: `I'm a Software Engineer who loves solving real world problems. I love what I do, and am constantly honing my craft. Check out to know more!`,
   banner: `/src/images/favicon.webp`,
   pathname: null,
   article: false,
