@@ -13,7 +13,7 @@ const IndexPage = () => (
   <>
     <SEO 
       title="Pratik Shivaraikar"
-      desc="Software Engineer. Pratik Shivaraikar's personal website." 
+      desc="I'm a Software Engineer who loves solving real world problems. I love what I do, and am constantly honing my craft. Check out to know more!" 
     />
     <Main />
   </>
