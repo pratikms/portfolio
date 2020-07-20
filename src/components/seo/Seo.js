@@ -153,11 +153,35 @@ const SEO = ({ title, desc, banner, pathname, article, node }) => {
       {
         '@type': 'ListItem',
         item: {
-          '@id': seo.url + '',
+          '@id': siteUrl + '/#blogs',
           name: 'Blogs',
         },
+        position: 1,
+      },
+      {
+        '@type': 'ListItem',
+        item: {
+          '@id': siteUrl + '/#work',
+          name: 'Work',
+        },
         position: 2,
-      }
+      },
+      {
+        '@type': 'ListItem',
+        item: {
+          '@id': siteUrl + '/#experience',
+          name: 'Experience',
+        },
+        position: 3,
+      },
+      {
+        '@type': 'ListItem',
+        item: {
+          '@id': siteUrl + '/#contact',
+          name: 'Contact',
+        },
+        position: 4,
+      },
     ])
   }
 
