@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Pratik Shivaraikar`,
-    description: `Software Engineer. Pratik Shivaraikar's personal website.`,
+    description: `I'm a Software Engineer who loves solving real world problems. I love what I do, and am constantly honing my craft. Check out to know more!`,
     author: `Pratik Shivaraikar <contact@pratikms.com>`,
     siteUrl: `https://pratikms.com/`,
     siteLanguage: `en`,
