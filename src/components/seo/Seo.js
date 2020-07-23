@@ -202,7 +202,7 @@ const SEO = ({ title, desc, banner, pathname, article, node }) => {
         {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
         {!article && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
         {article && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
-        <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+        {/* <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script> */}
       </Helmet>
       <Facebook
         desc={seo.description}

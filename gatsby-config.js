@@ -34,6 +34,7 @@ module.exports = {
         icon: `src/images/favicon.webp`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
