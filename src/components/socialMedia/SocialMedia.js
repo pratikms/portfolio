@@ -13,6 +13,10 @@ export default function socialMedia() {
         <i className="fab fa-linkedin-in"></i>
         <span></span>
       </a>
+      <a href={socialMediaLinks.twitter} className="icon-button twitter" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-twitter"></i>
+        <span></span>
+      </a>
       <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button mail" target="_blank" rel="noopener noreferrer">
         <i className="far fa-envelope"></i>
         <span></span>

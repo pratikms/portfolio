@@ -9,8 +9,9 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/pratik-shivaraikar/",
   github: "https://github.com/pratikms",
   gmail: "contact@pratikms.com",
+  twitter: "https://twitter.com/@pmshivaraikar",
   medium: "https://medium.com/@pratik.shivaraikar",
-  dev: "https://medium.com/@pratik.shivaraikar"
+  dev: "https://dev.to/pratikms"
 }
 
 const skillsSection = {
