@@ -12,7 +12,7 @@ export default function GithubRepoCard({ repo }) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div>
-        <div className="repo-card-div" key={repo.node.id} onClick={() => openRepoInNewTab(repo.node.url)} onKeyDown={() => openRepoInNewTab(repo.node.url)}>
+        <div className="repo-card-div" key={repo.node.id} onClick={() => openRepoInNewTab(repo.node.url)} onKeyDown={() => openRepoInNewTab(repo.node.url)} role="none">
           <div className="repo-name-div">
             <svg aria-hidden="true" className="octicon repo-svg" height="20" role="img" viewBox="0 0 12 16" width="14">
               <path

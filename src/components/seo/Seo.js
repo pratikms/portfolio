@@ -185,13 +185,13 @@ const SEO = ({ title, desc, banner, pathname, article, node }) => {
     ])
   }
 
-  const breadcrumb = {
-    '@context': 'http://schema.org',
-    '@type': 'BreadcrumbList',
-    description: `I'm a Software Engineer who loves solving real world problems. I love what I do, and am constantly honing my craft. Check out to know more!`,
-    name: 'Pratik Shivaraikar',
-    itemListElement,
-  }
+  // const breadcrumb = {
+  //   '@context': 'http://schema.org',
+  //   '@type': 'BreadcrumbList',
+  //   description: `I'm a Software Engineer who loves solving real world problems. I love what I do, and am constantly honing my craft. Check out to know more!`,
+  //   name: 'Pratik Shivaraikar',
+  //   itemListElement,
+  // }
 
   return (
     <>

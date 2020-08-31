@@ -32,7 +32,7 @@ export default function ExperienceCard({ cardInfo }) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div>
-        <div className="experience-card" onClick={() => openCompanyInNewTab(cardInfo.companyHomepage)} onKeyDown={() => openCompanyInNewTab(cardInfo.companyHomepage)}>
+        <div className="experience-card" onClick={() => openCompanyInNewTab(cardInfo.companyHomepage)} onKeyDown={() => openCompanyInNewTab(cardInfo.companyHomepage)} role="none">
           {/* <div style={{background: rgb(colorArrays) }} className="experience-banner"> */}
           <div className="experience-banner">
               <div className="experience-blurred_div"></div>
