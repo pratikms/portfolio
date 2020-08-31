@@ -6,11 +6,11 @@ const greeting = {
 }
 
 const socialMediaLinks = {
-  github: "https://github.com/pratikms",
   linkedin: "https://www.linkedin.com/in/pratik-shivaraikar/",
+  github: "https://github.com/pratikms",
   gmail: "contact@pratikms.com",
-  // gitlab: "https://gitlab.com/pratikms",
-  // facebook: "https://www.facebook.com/pratik.shivaraikar"
+  medium: "https://medium.com/@pratik.shivaraikar",
+  dev: "https://medium.com/@pratik.shivaraikar"
 }
 
 const skillsSection = {

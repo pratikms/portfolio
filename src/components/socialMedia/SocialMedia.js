@@ -17,14 +17,14 @@ export default function socialMedia() {
         <i className="far fa-envelope"></i>
         <span></span>
       </a>
-      {/* <a href={socialMediaLinks.gitlab} className="icon-button gitlab" target="_blank">
-        <i className="fab fa-gitlab"></i>
+      <a href={socialMediaLinks.medium} className="icon-button medium" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-medium"></i>
         <span></span>
       </a>
-      <a href={socialMediaLinks.facebook} className="icon-button facebook" target="_blank">
-        <i className="fab fa-facebook-f"></i>
+      <a href={socialMediaLinks.dev} className="icon-button dev" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-dev"></i>
         <span></span>
-      </a> */}
+      </a>
     </div>
   )
 }
